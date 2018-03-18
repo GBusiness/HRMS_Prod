@@ -1,0 +1,398 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+html, body {
+    direction: rtl;
+}
+
+body {
+    background-image: url('../../Images/BackMain.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paddings {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.xafAlignCenter {
+    margin: 0;
+}
+
+.sizeLimit {
+    max-width: 99%;
+}
+
+.darkGray {
+    background-color: rgba(216, 221, 230, 0.74);
+}
+
+/******  Top-Menu ********/
+
+.dxm-item.accountItem.dxm-subMenu .dx-vam {
+    padding-right: 10px;
+}
+
+#headerTable > tbody > tr > td:nth-child(2) > div {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+/************************/
+
+.xafNav {
+    float: right;
+}
+
+    .xafNav > .xafContent {
+        margin-left: 15px;
+        margin-right: 0;
+        width: 305px !important;
+        overflow-x: hidden !important;
+        height: 92vh;
+        background-color: transparent !important;
+        /*margin-top: 0 !important;*/
+        margin-bottom: 0 !important;
+        position: relative;
+    }
+
+
+#Vertical_v2_2774370_VSP::-webkit-scrollbar {
+    /*width: 0.5em !important;*/
+    /*height: 500px !important;*/
+}
+
+#Vertical_v2_2774370_VSP::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+}
+
+#Vertical_v2_2774370_VSP::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+.xafNav > .xafContent::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.xafNav > .xafContent::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.xafNav > .xafContent::-webkit-scrollbar-thumb {
+    background-color: rgba(98, 104, 123,0.9);
+    /*border:1px solid rgba(236, 240, 241,0.8);*/
+    border-radius: 6px;
+}
+
+
+.dxnbLite_XafTheme .dxnb-header, .dxnbLite_XafTheme .dxnb-headerCollapsed {
+    text-align: right;
+    padding: 12px 16px 12px 0px;
+}
+
+.dxnbLite_XafTheme .dxnb-img {
+    margin: 0 5px 0 10px;
+}
+
+.xafNav .dxnb-content {
+    padding: 0;
+}
+
+.xav-nav-dxtv-ndImg {
+    margin-left: 8px;
+}
+
+.dxnbLite_XafTheme .dxnb-item {
+    text-align: right !important;
+}
+
+
+/******  Content ********/
+
+.ViewImage {
+    padding-left: 20px;
+}
+
+
+
+.xafBreadCrumbs {
+    /*white-space: nowrap;*/
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    box-shadow: none;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+    .xafBreadCrumbs a {
+        text-decoration: none;
+        color: #444;
+    }
+
+
+        .xafBreadCrumbs a:link {
+            color: #fff;
+            background-color: rgba(52, 73, 94,0.2);
+            padding: 3px 8px;
+            border-radius: 5px;
+            text-shadow: 0px 1px 5px rgba(52, 73, 94,0.9);
+            transition: 0.3s ease-in-out all;
+        }
+
+            .xafBreadCrumbs a:link:hover {
+                text-shadow: -2px 0px 2px rgba(52, 73, 94,0.1);
+                transition: 0.3s ease-in-out all;
+                color: rgba(52, 73, 94,1.0);
+            }
+
+
+
+/*for save button text padding top changed*/
+.dxmLite_XafTheme .dxmtb.dxm-horizontal.menuButtons .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content {
+    padding: 12px 0px 8px 22px;
+}
+
+/*.dxrpControl_XafTheme .dxrpHI {
+    margin-left: 10px;
+}*/
+
+.dxrpCollapseButton {
+    float: left;
+}
+
+.dxrpHeader_XafTheme.GroupHeader.Label {
+    padding-right: 20px;
+}
+
+.dxrpControl_XafTheme .dxrpHI {
+    margin-left: 8px;
+}
+
+/*.dxpcLite_XafTheme.dxpc-mainDiv {
+    right: 0 !important;
+}*/
+
+
+/************************/
+
+.CardGroupContent > table > tbody > tr > td {
+    display: flex !important;
+}
+
+.rhtCL > tbody > tr {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+
+.rhtCL > .caption {
+    width: 100% !important;
+}
+
+.GroupContent.firstEditorContainer .Item {
+    padding-left: 10px !important;
+}
+
+.GroupHeader .Label {
+    padding-right: 19px;
+}
+
+.dxeBase_XafTheme.dxeTAR .dxichCellSys {
+    padding-right: 0px !important;
+}
+
+
+.dxeTAR.dxeBase_XafTheme .dxichTextCellSys {
+    padding: 5px 4px 4px 0;
+}
+
+
+.menuActionImageSVG .dxm-image, .dxm-popup .menuActionImageSVG .dxm-image {
+    padding-right: 0 !important;
+}
+
+.dxm-popOut > span {
+    margin-top: 10px;
+}
+
+
+/*#region Report-Style */
+
+.dxrd-designer-wrapper .dxrd-right-panel {
+    top: 40px !important;
+}
+
+.dxrd-designer-wrapper .dxrd-right-panel-collapse {
+    height: 40px !important;
+    background-color: #ecf0f1 !important;
+}
+
+.dxrd-designer-wrapper .dxrd-right-tabs {
+    top: 40px !important;
+}
+
+.dxrd-designer-wrapper .dxrd-right-panel-collapse .dxrd-right-panel-collapse-image {
+    height: 60px !important;
+    width: 110px !important;
+    position: relative !important;
+}
+
+.dxrd-image-propertygrid-collapse::after {
+    content: "Click Here To Close" !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.dxrd-image-propertygrid-collapse {
+    background-size: 40px !important;
+    padding-top: 15px;
+    padding-left: 35px;
+    animation: 1s RightLeft infinite;
+    cursor: pointer;
+    color: #2980b9;
+}
+
+.dxrd-designer-wrapper.dx-ltr .dxrd-right-panel-collapse .dxrd-right-panel-collapse-image {
+    background-size: 40px !important;
+    animation: 1.8s RightLeft infinite;
+    cursor: pointer;
+}
+
+/*#endregion */
+
+/*#region Left-Right Animation */
+
+@-moz-keyframes RightLeft {
+    0% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-5px);
+    }
+}
+
+@-webkit-keyframes RightLeft {
+    0% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-5px);
+    }
+}
+
+@keyframes RightLeft {
+    0% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-5px);
+    }
+}
+
+/*#endregion */
+
+/*#region USC-Reports */
+
+.lblPeriod_analysis {
+    margin-right: 10px !important;
+    color: #2980b9 !important;
+    letter-spacing: 0.5px !important;
+    padding-left: 10px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+}
+
+.dtFrom_analysis, .dtTo_analysis, .combo_analysis {
+    margin-right: 5px !important;
+    border-radius: 4px !important;
+}
+
+.btnGet_analysis, .btnDrillUp_analysis, .btnExportToExcel_analysis, .btnExportToPDF_analysis {
+    border-radius: 12px !important;
+    margin-right: 3px !important;
+    border-color: #808080 !important;
+    transition: 0.2s ease-in-out all !important;
+    margin-top: -0.2rem;
+}
+
+    .btnExportToExcel_analysis:hover, .btnGet_analysis:hover, .btnDrillUp_analysis:hover, .btnDrillUp_analysis:hover, .btnExportToPDF_analysis:hover {
+        box-shadow: none;
+        border-color: #808080 !important;
+        background-color: rgba(248, 248, 255,0.1) !important;
+        margin-top: -0.6rem;
+        transition: 0.2s linear all !important;
+    }
+
+.combo_analysis {
+    padding: 5px;
+}
+
+/*#endregion */
+
+.Caption {
+    width: 100% !important;
+}
+
+
+/*Text Input in drop down*/
+.dxeListBoxItem_XafTheme {
+    color: #4a4a4a !important;
+    background-color: white !important;
+    text-align: right;
+}
+
+#Vertical_v93_39691894_MainLayoutEdit_xaf_l1824_xaf_l1850 {
+    float: right;
+}
+
+.GroupHeader .Image {
+    padding-right: 19px;
+}
+
+
+/*Changed for Workflow leave Coniflict button*/
+.AdaptivityEditorContainer {
+    float: right;
+}
+
+/*Applied for hiding the horizontal scroll in Organization Chart*/
+.dxtvControl_XafTheme li {
+    overflow-x: hidden;
+}
+
+
+
+html > html> body > .CardGroupBase{
+    direction: rtl;
+}
+
+html > html> body > .CardGroupBase >.CardGroupContent > table > tbody > tr > td {
+    display: flex !important;
+}
+
+html > body > .rhtCL > tbody > tr {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+
+html > body > .rhtCL > .caption {
+    width: 100% !important;
+}
