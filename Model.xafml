@@ -683,7 +683,7 @@
       <LocalizationItem Name="TransitionValidationMessage" Value="To go to the '{StateCaption}' state, the '{TargetObject}' must satisfy the following criteria: {Criteria}" />
     </LocalizationGroup>
   </Localization>
-  <NavigationItems>
+  <NavigationItems StartupNavigationItem="HRDashboard">
     <Items>
       <Item Id="Transactions">
         <Items>
@@ -806,6 +806,7 @@
           </Item>
           <Item Id="Dashboards">
             <Items>
+              <DashboardNavigationItem Id="HRDashboard" DashboardTitle="HR Dashboard" Caption="HR Dashboard" ToolTip="HR Dashboard" IsNewNode="True" />
               <Item Id="MyDashboardView" ViewId="MyDashboardView" ImageName="document" Caption="Document Dashboard" IsNewNode="True" />
             </Items>
           </Item>
